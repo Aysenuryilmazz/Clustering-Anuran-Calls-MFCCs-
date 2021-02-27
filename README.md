@@ -15,3 +15,16 @@ got 7195 syllables, which became instances for train and test the classifier. Th
 CÃ³rdoba, Argentina. 
 
 Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an mel-frequency cepstrum (MFC). Due to each syllable has different length, every row (i) was normalized acording to MFCCs_i/(max(abs(MFCCs_i))).
+
+
+In this project, I did first exploratory data analysis with help of matplotlib and seaborn visualization packages.
+I tried to handle outliers by replacing them with each corresponding columns' mean values. 
+I applied three different clustering algorithms, these are:
+
+- K-Means
+- DBSCAN
+- AGNES
+
+At the end of the notebook, you will see the comparison of algorithms. 
+
+I hope you can enjoy while learning :)
